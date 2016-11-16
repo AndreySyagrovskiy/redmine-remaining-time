@@ -1,0 +1,14 @@
+{
+  "name": "check-times",
+  "version": "0.0.1",
+  "description": "calculate lost time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Syagrovskiy",
+  "license": "ISC",
+  "dependencies": {
+    "node-redmine": "^0.1.3"
+  }
+}
