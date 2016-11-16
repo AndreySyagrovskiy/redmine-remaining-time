@@ -2,7 +2,7 @@ const Redmine = require('node-redmine');
 
 var hostname = process.env.REDMINE_HOST || 'https://redmine.stfalcon.com';
 var config = {
-    apiKey: process.env.REDMINE_APIKEY || '2fa20c4c817077c78b4695b28d0d502478186867'
+    apiKey: process.env.REDMINE_APIKEY || 'test'
 };
 
 const redmine = new Redmine(hostname, config);
